@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'LocalFramework05_Example' do
+  pod 'LocalFramework05', :path => '../'
+
+  target 'LocalFramework05_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
