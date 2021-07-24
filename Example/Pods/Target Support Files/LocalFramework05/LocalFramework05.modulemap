@@ -1,0 +1,6 @@
+framework module LocalFramework05 {
+  umbrella header "LocalFramework05-umbrella.h"
+
+  export *
+  module * { export * }
+}
